@@ -6,6 +6,8 @@ output: rmarkdown::github_document
 
 ## Description
 
+This package connects to the site <http://quotesondesign.com/> that uses the WordPress JSON REST API to provide a way for you to grab quotes.
+
 ## Overview
 
 The following functions are implemented:
