@@ -44,10 +44,12 @@ library(randquotes)
 randquote()
 ```
 
-    ##    ID          title                                                                                     content
-    ## 1 956 Abraham Maslow <p>When the only tool you own is a hammer, every problem begins to resemble a nail.  </p>\n
-    ##                                         link
-    ## 1 https://quotesondesign.com/abraham-maslow/
+    ##     ID        title
+    ## 1 1205 Robert Otani
+    ##                                                                                                                                              content
+    ## 1 <p>I try to take my camera everywhere with me so that I&#8217;ll be ready when unicorns crapping rainbows come flying in from the heavens.  </p>\n
+    ##                                       link                                                                   Source
+    ## 1 https://quotesondesign.com/robert-otani/ <a href="http://www.pictorymag.com/showcases/san-francisco/">pictory</a>
 
 Courtesy
 --------
@@ -57,4 +59,4 @@ This R package is powered by [Quotes on Design API](https://quotesondesign.com/a
 Contribution
 ------------
 
-Don't forget to describe the code of conduct in your README.md: Please note that this project is released with a [Contributor Code of Conduct](CONDUCT.md). By participating in this project you agree to abide by its terms.
+Please note that this project is released with a [Contributor Code of Conduct](CONDUCT.md). By participating in this project you agree to abide by its terms.
