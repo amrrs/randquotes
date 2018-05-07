@@ -22,6 +22,10 @@ devtools::install_github("amrrs/randquotes")
 options(width=120)
 ```
 
+### Note
+
+This package fetches data from API hence an active internet connection is required for this package to function.
+
 ## Current Version
 
 ```{r message=FALSE, warning=FALSE, error=FALSE}

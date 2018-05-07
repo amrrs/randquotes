@@ -19,6 +19,10 @@ Installation
 devtools::install_github("amrrs/randquotes")
 ```
 
+### Note
+
+This package fetches data from API hence an active internet connection is required for this package to function.
+
 Current Version
 ---------------
 
@@ -40,12 +44,12 @@ library(randquotes)
 randquote()
 ```
 
-    ##     ID        title
-    ## 1 1216 Guy Kawasaki
-    ##                                                                                                                                                                                                                                                                     content
-    ## 1 <p>…the wisest course of action is to take your best shot with a prototype, immediately get to market, and iterate quickly. If you wait for ideal circumstances in which you have all the information you need (which is impossible) the market will pass you by.  </p>\n
-    ##                                       link
-    ## 1 https://quotesondesign.com/guy-kawasaki/
+    ##    ID      title
+    ## 1 213 Jef Raskin
+    ##                                                                                                                                                      content
+    ## 1 <p>However, I&#8217;ve always been more concerned with users. Programmers do their work but once, while users are saddled with it ever thereafter.  </p>\n
+    ##                                     link                                                               Source
+    ## 1 https://quotesondesign.com/jef-raskin/ <a href="http://www.apple-history.com/?page=gui_raskin1">website</a>
 
 Courtesy
 --------
