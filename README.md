@@ -44,14 +44,16 @@ library(randquotes)
 randquote()
 ```
 
-    ##    ID      title
-    ## 1 213 Jef Raskin
-    ##                                                                                                                                                      content
-    ## 1 <p>However, I&#8217;ve always been more concerned with users. Programmers do their work but once, while users are saddled with it ever thereafter.  </p>\n
-    ##                                     link                                                               Source
-    ## 1 https://quotesondesign.com/jef-raskin/ <a href="http://www.apple-history.com/?page=gui_raskin1">website</a>
+    ##     ID          title
+    ## 1 1880 Randall Munroe
+    ##                                                                                                                                                                                                                                                       content
+    ## 1 <p>I find that when someone’s taking time to do something right in the present, they’re a perfectionist with no ability to prioritize, whereas when someone took time to do something right in the past, they’re a master artisan of great foresight.</p>\n
+    ##                                         link                                                                     Source
+    ## 1 https://quotesondesign.com/randall-munroe/ <a href="http://darylkoop.com/2011/11/07/the-general-problem/">website</a>
 
 Courtesy
 --------
 
 This R package is powered by [Quotes on Design API](https://quotesondesign.com/api-v4-0/)
+
+Don't forget to describe the code of conduct in your README.md: Please note that this project is released with a [Contributor Code of Conduct](CONDUCT.md). By participating in this project you agree to abide by its terms.

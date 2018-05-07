@@ -48,3 +48,6 @@ randquote()
 ## Courtesy
 
 This R package is powered by [Quotes on Design API](https://quotesondesign.com/api-v4-0/)
+
+Don't forget to describe the code of conduct in your README.md:
+Please note that this project is released with a [Contributor Code of Conduct](CONDUCT.md). By participating in this project you agree to abide by its terms.
