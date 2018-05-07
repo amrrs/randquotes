@@ -40,11 +40,14 @@ library(randquotes)
 randquote()
 ```
 
-    ##     ID         title
-    ## 1 2094 Frank Chimero
-    ##                                                                                                                                                                                                                content
-    ## 1 <p>I think design would be better if designers were much more skeptical about its applications. If you believe in the potency of your craft, where you choose to dole it out is not something to take lightly.</p>\n
-    ##                                          link
-    ## 1 https://quotesondesign.com/frank-chimero-7/
-    ##                                                                                   Source
-    ## 1 <a href="http://frankchimero.com/blog/2013/02/a-lesson-from-a-surgeon/">blog post<./a>
+    ##     ID        title
+    ## 1 1216 Guy Kawasaki
+    ##                                                                                                                                                                                                                                                                     content
+    ## 1 <p>…the wisest course of action is to take your best shot with a prototype, immediately get to market, and iterate quickly. If you wait for ideal circumstances in which you have all the information you need (which is impossible) the market will pass you by.  </p>\n
+    ##                                       link
+    ## 1 https://quotesondesign.com/guy-kawasaki/
+
+Courtesy
+--------
+
+This R package is powered by [Quotes on Design API](https://quotesondesign.com/api-v4-0/)
