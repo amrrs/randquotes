@@ -20,7 +20,7 @@ devtools::install_github("amrrs/randquotes")
 options(width=120)
 ```
 
-## Usage
+## Current Version
 
 ```{r message=FALSE, warning=FALSE, error=FALSE}
 library(randquotes)
@@ -28,5 +28,14 @@ library(randquotes)
 # current verison
 packageVersion("randquotes")
 
+```
+
+## Usage
+
+
+```{r}
+library(randquotes)
+
+randquote()
 ```
 
