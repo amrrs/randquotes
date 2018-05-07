@@ -18,5 +18,5 @@ Suggests:
 Depends:
     R (>= 3.2.0)
 Imports:
-    purrr
+    jsonlite
 RoxygenNote: 6.0.1
