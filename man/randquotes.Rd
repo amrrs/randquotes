@@ -4,8 +4,13 @@
 \name{randquotes}
 \alias{randquotes}
 \alias{randquotes-package}
-\title{...}
+\title{Get Random Quotes from Quotes on Design API}
 \description{
+This package connects to the site \url{http://quotesondesign.com/}
+that uses the WordPress JSON REST API to provide
+a way for you to grab quotes.
+}
+\details{
 ...
 }
 \author{
