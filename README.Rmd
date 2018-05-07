@@ -4,13 +4,15 @@ output: rmarkdown::github_document
 
 # randquotes
 
+
 ## Description
 
 This package connects to the site <http://quotesondesign.com/> that uses the WordPress JSON REST API to provide a way for you to grab quotes.
 
 ## Overview
 
-The following functions are implemented:
+This package contains the following function:
+`randquote()` that fetches a random quote and returns a dataframe along with the author name and link to the quote.
 
 ## Installation
 
@@ -48,6 +50,8 @@ randquote()
 ## Courtesy
 
 This R package is powered by [Quotes on Design API](https://quotesondesign.com/api-v4-0/)
+
+## Contribution
 
 Don't forget to describe the code of conduct in your README.md:
 Please note that this project is released with a [Contributor Code of Conduct](CONDUCT.md). By participating in this project you agree to abide by its terms.
