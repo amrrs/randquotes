@@ -2,7 +2,7 @@
 randquotes
 ==========
 
-[![Build Status](https://travis-ci.org/amrrs/randquotes.svg?branch=master)](https://travis-ci.org/amrrs/randquotes)
+[![Build Status](https://travis-ci.org/amrrs/randquotes.svg?branch=master)](https://travis-ci.org/amrrs/randquotes) [![codecov](https://codecov.io/gh/amrrs/randquotes/branch/master/graph/badge.svg)](https://codecov.io/gh/amrrs/randquotes)
 
 Description
 -----------
@@ -48,12 +48,10 @@ library(randquotes)
 randquote()
 ```
 
-    ##    ID          title                                                                                         content
-    ## 1 334 Charles Mingus <p>You can&#8217;t improvise on nothing man; you&#8217;ve gotta improvise on something.  </p>\n
-    ##                                         link
-    ## 1 https://quotesondesign.com/charles-mingus/
-    ##                                                                                                                                                    Source
-    ## 1 <a href="http://www.amazon.com/gp/product/0465071937?ie=UTF8&tag=css-tricks-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0465071937">book</a>
+    ##    ID          title                                                        content
+    ## 1 835 Cool Hand Luke <p>What we got here is&hellip; failure to communicate.  </p>\n
+    ##                                         link                                                           Source
+    ## 1 https://quotesondesign.com/cool-hand-luke/ <a href="http://www.imdb.com/title/tt0061512/taglines">movie</a>
 
 ### Get only the Quote
 
@@ -65,7 +63,7 @@ library(randquotes)
 randquote_simple()
 ```
 
-    ## [1] "There are no bad ideas, just bad decisions.  \n-Jacob Cass"
+    ## [1] "To attempt mastery of everything inevitably makes us mediocre in many areas. \n-Simon Collison"
 
 Courtesy
 --------
