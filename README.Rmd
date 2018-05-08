@@ -58,8 +58,6 @@ library(randquotes)
 randquote_simple()
 ```
 
-
-
 ## Courtesy
 
 This R package is powered by [Quotes on Design API](https://quotesondesign.com/api-v4-0/)
