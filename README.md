@@ -2,6 +2,8 @@
 randquotes
 ==========
 
+[![Build Status](https://travis-ci.org/amrrs/randquotes.svg?branch=master)](https://travis-ci.org/amrrs/randquotes)
+
 Description
 -----------
 
@@ -38,25 +40,37 @@ packageVersion("randquotes")
 Usage
 -----
 
+### Get Random Quote
+
 ``` r
 library(randquotes)
 
 randquote()
 ```
 
-    ##     ID        title
-    ## 1 1205 Robert Otani
-    ##                                                                                                                                              content
-    ## 1 <p>I try to take my camera everywhere with me so that I&#8217;ll be ready when unicorns crapping rainbows come flying in from the heavens.  </p>\n
-    ##                                       link                                                                   Source
-    ## 1 https://quotesondesign.com/robert-otani/ <a href="http://www.pictorymag.com/showcases/san-francisco/">pictory</a>
+    ##     ID               title                                                                              content
+    ## 1 2439 Achille Castiglioni <p>Delete, delete, delete and at the end find the ‘core aspect of the design’.</p>\n
+    ##                                              link
+    ## 1 https://quotesondesign.com/achille-castiglioni/
+
+### Get only the Quote
+
+Sometimes you may not be interested in getting a dataframe that has ID and link, so this function `randquote_simple()` outputs only the quote with author name.
+
+``` r
+library(randquotes)
+
+randquote_simple()
+```
+
+    ## [1] "Practice safe design: Use a concept.  \n-Petrula Vrontikis"
 
 Courtesy
 --------
 
 This R package is powered by [Quotes on Design API](https://quotesondesign.com/api-v4-0/)
 
-Contribution
-------------
+Code of Conduct
+---------------
 
 Please note that this project is released with a [Contributor Code of Conduct](CONDUCT.md). By participating in this project you agree to abide by its terms.
