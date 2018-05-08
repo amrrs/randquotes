@@ -2,7 +2,7 @@
 % Please edit documentation in R/randquote.R
 \name{randquote_simple}
 \alias{randquote_simple}
-\title{Minimal version of getting random quotes (only quotes)}
+\title{Minimal version of getting random quotes (only quote and author)}
 \usage{
 randquote_simple(decoded = T)
 }
@@ -13,7 +13,7 @@ randquote_simple(decoded = T)
 A string of quote along with the author name
 }
 \description{
-Minimal version of getting random quotes (only quotes)
+Minimal version of getting random quotes (only quote and author)
 }
 \examples{
 randquote_simple()
