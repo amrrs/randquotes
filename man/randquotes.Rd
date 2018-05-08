@@ -13,6 +13,16 @@ a way for you to grab quotes.
 \details{
 ...
 }
+\section{See Also}{
+
+Useful links:
+\itemize{
+\item \url{http://quotesondesign.com/}
+\item \url{https://github.com/amrrs/randquotes}
+\item Report bugs at \url{https://github.com/amrrs/randquotes/issues}
+}
+}
+
 \author{
 AbdulMajedRaja RS(amrrs.data@gmail.com)
 }

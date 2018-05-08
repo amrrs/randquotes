@@ -2,6 +2,7 @@
 #' @return A dataframe with ID, Quote, Author and Link
 #' @examples
 #' randquote()
+#' @importFrom jsonlite fromJSON
 #' @export
 randquote <- function(){
 
