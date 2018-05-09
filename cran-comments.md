@@ -7,8 +7,4 @@
 
 0 errors | 0 warnings | 0 note
 
-* This is a new release.
-
-## Reverse dependencies
-
-This is a new release, so there are no reverse dependencies.
+* This is a resubmission with change in Description
