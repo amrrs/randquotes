@@ -1,13 +1,13 @@
 Package: randquotes
 Type: Package
-Title: Get Random Quotes from Quotes on Design API <http://quotesondesign.com/>
+Title: Get Random Quotes from Quotes on Design API
 Version: 0.1.0
 Date: 2018-05-08
 Authors@R: c(
     person("AbdulMajedRaja", "RS", email = "amrrs.data@gmail.com", role = c("aut", "cre"))
   )
 Maintainer: AbdulMajedRaja RS <amrrs.data@gmail.com>
-Description: This package connects to the site <http://quotesondesign.com/> 
+Description: Connects to the site <http://quotesondesign.com/> 
             that uses the WordPress JSON REST API 
             to provide a way for you to grab quotes.
 URL: https://github.com/amrrs/randquotes
@@ -15,8 +15,7 @@ BugReports: https://github.com/amrrs/randquotes/issues
 Encoding: UTF-8
 License: AGPL
 Suggests:
-    testthat,
-    covr
+    testthat
 Depends:
     R (>= 3.2.0)
 Imports: 
