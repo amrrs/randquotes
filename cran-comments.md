@@ -7,4 +7,4 @@
 
 0 errors | 0 warnings | 0 note
 
-* This is a resubmission with change in Description
+* This is a resubmission with change in Description and curl dependency added
