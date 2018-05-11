@@ -8,7 +8,7 @@ Authors@R: c(
   )
 Maintainer: AbdulMajedRaja RS <amrrs.data@gmail.com>
 Description: Connects to the site <http://quotesondesign.com/> 
-            that uses the 'WordPress' 'JSON' 'REST API' 
+            that uses the 'WordPress' JSON REST API 
             to provide a way for you to grab quotes.
 URL: https://github.com/amrrs/randquotes
 BugReports: https://github.com/amrrs/randquotes/issues
