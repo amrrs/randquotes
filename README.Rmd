@@ -4,7 +4,7 @@ output: rmarkdown::github_document
 
 # randquotes
 
-[![Build Status](https://travis-ci.org/amrrs/randquotes.svg?branch=master)](https://travis-ci.org/amrrs/randquotes) [![codecov](https://codecov.io/gh/amrrs/randquotes/branch/master/graph/badge.svg)](https://codecov.io/gh/amrrs/randquotes) 
+[![Build Status](https://travis-ci.org/amrrs/randquotes.svg?branch=master)](https://travis-ci.org/amrrs/randquotes) [![codecov](https://codecov.io/gh/amrrs/randquotes/branch/master/graph/badge.svg)](https://codecov.io/gh/amrrs/randquotes) [![DOWNLOADSTOTAL](https://cranlogs.r-pkg.org/badges/grand-total/randquotes)](https://cranlogs.r-pkg.org/badges/grand-total/randquotes)
 
 ## Description
 
@@ -16,6 +16,14 @@ This package contains the following function:
 `randquote()` that fetches a random quote and returns a dataframe along with the author name and link to the quote.
 
 ## Installation
+
+The stable version of `randquotes` can be installed from CRAN:
+
+```{r eval=FALSE}
+install.packages("randquotes")
+```
+
+And the development version can be installed from github:
 
 ```{r eval=FALSE}
 devtools::install_github("amrrs/randquotes")

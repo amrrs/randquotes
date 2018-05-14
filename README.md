@@ -17,6 +17,14 @@ This package contains the following function: `randquote()` that fetches a rando
 Installation
 ------------
 
+The stable version of `randquotes` can be installed from CRAN:
+
+``` r
+install.packages("randquotes")
+```
+
+And the development version can be installed from github:
+
 ``` r
 devtools::install_github("amrrs/randquotes")
 ```
@@ -48,10 +56,10 @@ library(randquotes)
 randquote()
 ```
 
-    ##    ID          title                                                        content
-    ## 1 835 Cool Hand Luke <p>What we got here is&hellip; failure to communicate.  </p>\n
-    ##                                         link                                                           Source
-    ## 1 https://quotesondesign.com/cool-hand-luke/ <a href="http://www.imdb.com/title/tt0061512/taglines">movie</a>
+    ##    ID           title                                                                content
+    ## 1 758 Ivan Chermayeff <p>Sometimes there is no need to be either clever or original.  </p>\n
+    ##                                            link
+    ## 1 https://quotesondesign.com/ivan-chermayeff-2/
 
 ### Get only the Quote
 
@@ -63,7 +71,7 @@ library(randquotes)
 randquote_simple()
 ```
 
-    ## [1] "To attempt mastery of everything inevitably makes us mediocre in many areas. \n-Simon Collison"
+    ## [1] "Instead of shooting arrows at somebody else’s target… I make my own target around wherever my arrow has happened to have landed.\n-Brian Eno"
 
 Courtesy
 --------
