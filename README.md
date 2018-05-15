@@ -2,7 +2,7 @@
 randquotes
 ==========
 
-[![Build Status](https://travis-ci.org/amrrs/randquotes.svg?branch=master)](https://travis-ci.org/amrrs/randquotes) [![codecov](https://codecov.io/gh/amrrs/randquotes/branch/master/graph/badge.svg)](https://codecov.io/gh/amrrs/randquotes) [![DOWNLOADSTOTAL](https://cranlogs.r-pkg.org/badges/grand-total/randquotes)](https://cranlogs.r-pkg.org/badges/grand-total/randquotes)
+[![Build Status](https://travis-ci.org/amrrs/randquotes.svg?branch=master)](https://travis-ci.org/amrrs/randquotes) [![codecov](https://codecov.io/gh/amrrs/randquotes/branch/master/graph/badge.svg)](https://codecov.io/gh/amrrs/randquotes) [![CRAN status](https://www.r-pkg.org/badges/version/randquotes)](https://cran.r-project.org/package=randquotes) [![DOWNLOADSTOTAL](https://cranlogs.r-pkg.org/badges/grand-total/randquotes)](https://cranlogs.r-pkg.org/badges/grand-total/randquotes)
 
 Description
 -----------
@@ -56,10 +56,12 @@ library(randquotes)
 randquote()
 ```
 
-    ##    ID        title                                                                    content
-    ## 1 785 Shawn Leslie <p>Good design means never having to say &#8220;Click Here.&#8221;  </p>\n
+    ##     ID        title                                                                             content
+    ## 1 2356 Ralph Caplan <p>Design is a process for making things right, for shaping what people need.</p>\n
     ##                                       link
-    ## 1 https://quotesondesign.com/shawn-leslie/
+    ## 1 https://quotesondesign.com/ralph-caplan/
+    ##                                                                                        Source
+    ## 1 <a href="http://www.amazon.com/Design-There-Bathroom-Object-Lessons/dp/0070097771">book</a>
 
 ### Get only the Quote
 
@@ -71,8 +73,8 @@ library(randquotes)
 cat(randquotes::randquote_simple())
 ```
 
-    ## It’s the little details that are vital. Little things make big things happen.  
-    ## -Coach John Wooden
+    ## If we want users to like our software we should design it to behave like a likeable person: respectful, generous and helpful.  
+    ## -Alan Cooper
 
 Courtesy
 --------
