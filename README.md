@@ -56,10 +56,10 @@ library(randquotes)
 randquote()
 ```
 
-    ##    ID           title                                                                content
-    ## 1 758 Ivan Chermayeff <p>Sometimes there is no need to be either clever or original.  </p>\n
-    ##                                            link
-    ## 1 https://quotesondesign.com/ivan-chermayeff-2/
+    ##    ID        title                                                                    content
+    ## 1 785 Shawn Leslie <p>Good design means never having to say &#8220;Click Here.&#8221;  </p>\n
+    ##                                       link
+    ## 1 https://quotesondesign.com/shawn-leslie/
 
 ### Get only the Quote
 
@@ -68,10 +68,11 @@ Sometimes you may not be interested in getting a dataframe that has ID and link,
 ``` r
 library(randquotes)
 
-randquote_simple()
+cat(randquotes::randquote_simple())
 ```
 
-    ## [1] "Instead of shooting arrows at somebody else’s target… I make my own target around wherever my arrow has happened to have landed.\n-Brian Eno"
+    ## It’s the little details that are vital. Little things make big things happen.  
+    ## -Coach John Wooden
 
 Courtesy
 --------

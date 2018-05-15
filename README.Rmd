@@ -63,7 +63,7 @@ Sometimes you may not be interested in getting a dataframe that has ID and link,
 ```{r}
 library(randquotes)
 
-randquote_simple()
+cat(randquotes::randquote_simple())
 ```
 
 ## Courtesy
