@@ -4,7 +4,8 @@ output: rmarkdown::github_document
 
 # randquotes
 
-[![Build Status](https://travis-ci.org/amrrs/randquotes.svg?branch=master)](https://travis-ci.org/amrrs/randquotes) [![codecov](https://codecov.io/gh/amrrs/randquotes/branch/master/graph/badge.svg)](https://codecov.io/gh/amrrs/randquotes) [![CRAN status](https://www.r-pkg.org/badges/version/randquotes)](https://cran.r-project.org/package=randquotes) [![DOWNLOADSTOTAL](https://cranlogs.r-pkg.org/badges/grand-total/randquotes)](https://cranlogs.r-pkg.org/badges/grand-total/randquotes)
+[![Build Status](https://travis-ci.org/amrrs/randquotes.svg?branch=master)](https://travis-ci.org/amrrs/randquotes) [![codecov](https://codecov.io/gh/amrrs/randquotes/branch/master/graph/badge.svg)](https://codecov.io/gh/amrrs/randquotes) [![CRAN status](https://www.r-pkg.org/badges/version/randquotes)](https://cran.r-project.org/package=randquotes) [![DOWNLOADSTOTAL](https://cranlogs.r-pkg.org/badges/grand-total/randquotes)](https://cranlogs.r-pkg.org/badges/grand-total/randquotes) [![Rdoc](http://www.rdocumentation.org/badges/version/randquotes)](http://www.rdocumentation.org/packages/randquotes) 
+
 
 ## Description
 

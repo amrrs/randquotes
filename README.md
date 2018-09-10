@@ -1,21 +1,20 @@
 
-randquotes
-==========
+# randquotes
 
-[![Build Status](https://travis-ci.org/amrrs/randquotes.svg?branch=master)](https://travis-ci.org/amrrs/randquotes) [![codecov](https://codecov.io/gh/amrrs/randquotes/branch/master/graph/badge.svg)](https://codecov.io/gh/amrrs/randquotes) [![CRAN status](https://www.r-pkg.org/badges/version/randquotes)](https://cran.r-project.org/package=randquotes) [![DOWNLOADSTOTAL](https://cranlogs.r-pkg.org/badges/grand-total/randquotes)](https://cranlogs.r-pkg.org/badges/grand-total/randquotes)
+[![Build Status](https://travis-ci.org/amrrs/randquotes.svg?branch=master)](https://travis-ci.org/amrrs/randquotes) [![codecov](https://codecov.io/gh/amrrs/randquotes/branch/master/graph/badge.svg)](https://codecov.io/gh/amrrs/randquotes) [![CRAN status](https://www.r-pkg.org/badges/version/randquotes)](https://cran.r-project.org/package=randquotes) [![DOWNLOADSTOTAL](https://cranlogs.r-pkg.org/badges/grand-total/randquotes)](https://cranlogs.r-pkg.org/badges/grand-total/randquotes) [![Rdoc](http://www.rdocumentation.org/badges/version/randquotes)](http://www.rdocumentation.org/packages/randquotes) 
 
-Description
------------
+## Description
 
-This package connects to the site <http://quotesondesign.com/> that uses the WordPress JSON REST API to provide a way for you to grab quotes.
+This package connects to the site <http://quotesondesign.com/> that uses
+the WordPress JSON REST API to provide a way for you to grab quotes.
 
-Overview
---------
+## Overview
 
-This package contains the following function: `randquote()` that fetches a random quote and returns a dataframe along with the author name and link to the quote.
+This package contains the following function: `randquote()` that fetches
+a random quote and returns a dataframe along with the author name and
+link to the quote.
 
-Installation
-------------
+## Installation
 
 The stable version of `randquotes` can be installed from CRAN:
 
@@ -31,10 +30,10 @@ devtools::install_github("amrrs/randquotes")
 
 ### Note
 
-This package fetches data from API hence an active internet connection is required for this package to function.
+This package fetches data from API hence an active internet connection
+is required for this package to function.
 
-Current Version
----------------
+## Current Version
 
 ``` r
 library(randquotes)
@@ -45,8 +44,7 @@ packageVersion("randquotes")
 
     ## [1] '0.1.0'
 
-Usage
------
+## Usage
 
 ### Get Random Quote
 
@@ -56,16 +54,18 @@ library(randquotes)
 randquote()
 ```
 
-    ##     ID        title                                                                             content
-    ## 1 2356 Ralph Caplan <p>Design is a process for making things right, for shaping what people need.</p>\n
-    ##                                       link
-    ## 1 https://quotesondesign.com/ralph-caplan/
-    ##                                                                                        Source
-    ## 1 <a href="http://www.amazon.com/Design-There-Bathroom-Object-Lessons/dp/0070097771">book</a>
+    ##     ID            title
+    ## 1 2394 Anthony Liccione
+    ##                                                                                                                                                                                                                                                           content
+    ## 1 <p>Her complexity is a glorious fire that consumes, while her simplicity goes unapproachable. But if one takes time to understand her, there is something beautiful to find, something simple to be loved. But she goes unloved, for being misunderstood.</p>\n
+    ##                                           link
+    ## 1 https://quotesondesign.com/anthony-liccione/
 
 ### Get only the Quote
 
-Sometimes you may not be interested in getting a dataframe that has ID and link, so this function `randquote_simple()` outputs only the quote with author name.
+Sometimes you may not be interested in getting a dataframe that has ID
+and link, so this function `randquote_simple()` outputs only the quote
+with author name.
 
 ``` r
 library(randquotes)
@@ -73,15 +73,16 @@ library(randquotes)
 cat(randquotes::randquote_simple())
 ```
 
-    ## If we want users to like our software we should design it to behave like a likeable person: respectful, generous and helpful.  
-    ## -Alan Cooper
+    ## Design in art, is a recognition of the relation between various things, various elements in the creative flux. You can’t invent a design. You recognize it, in the fourth dimension. That is, with your blood and your bones, as well as with your eyes.
+    ## -D.H. Lawrence
 
-Courtesy
---------
+## Courtesy
 
-This R package is powered by [Quotes on Design API](https://quotesondesign.com/api-v4-0/)
+This R package is powered by [Quotes on Design
+API](https://quotesondesign.com/api-v4-0/)
 
-Code of Conduct
----------------
+## Code of Conduct
 
-Please note that this project is released with a [Contributor Code of Conduct](CONDUCT.md). By participating in this project you agree to abide by its terms.
+Please note that this project is released with a [Contributor Code of
+Conduct](CONDUCT.md). By participating in this project you agree to
+abide by its terms.
