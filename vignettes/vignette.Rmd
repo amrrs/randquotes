@@ -1,0 +1,74 @@
+---
+title: "Using the randquote package"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Using the randquote package}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+This package connects to the site <http://quotesondesign.com/> that uses the WordPress JSON REST API to provide a way for you to grab quotes.
+
+## Overview
+
+This package contains the following function: `randquote()` that fetches a random quote and returns a dataframe along with the author name and link to the quote.
+
+## Installation
+
+The stable version of `randquotes` can be installed from CRAN:
+
+```{r,eval=FALSE}
+install.packages("randquotes")
+```
+
+And the development version can be installed from github:
+
+```{r,eval=FALSE}
+devtools::install_github("amrrs/randquotes")
+```
+
+### Note
+
+This package fetches data from API hence an active internet connection is required for this package to function.
+
+## Current Version
+
+``` {r}
+library(randquotes)
+
+# current verison
+packageVersion("randquotes")
+```
+
+## Usage
+
+### Get Random Quote
+
+```{r}
+library(randquotes)
+
+randquote()
+```
+
+
+### Get only the Quote
+
+Sometimes you may not be interested in getting a dataframe that has ID
+and link, so this function `randquote_simple()` outputs only the quote
+with author name.
+
+```{r}
+library(randquotes)
+
+cat(randquotes::randquote_simple())
+```
+
+
