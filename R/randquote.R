@@ -6,11 +6,17 @@
 #' @export
 randquote <- function(){
 
-  quote <- jsonlite::fromJSON("http://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=1")
+  new_url <- 'https://quotesondesign.com/wp-json/wp/v2/posts/?orderby=rand&per_page=1'
+  json_content <- jsonlite::fromJSON(new_url)
+
+  quote <- data.frame(id = json_content$id,
+                      quote = json_content$content$rendered,
+                      link = json_content$link,
+                      author = json_content$title$rendered
+  )
 
   class(quote) <- c('tbl','tbl_df','data.frame')
 
-  return(quote)
 }
 
 #' Minimal version of getting random quotes (only quote and author)
