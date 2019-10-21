@@ -11,7 +11,7 @@ randquote <- function() {
   get_call <- GET(new_url)
 
   if (get_call$status_code != 200) {
-    stop(paste0('The API call returned ', get_call$status_code, ' error'))
+    stop(paste0('Fetching failed. The API call returned ', get_call$status_code, ' error'))
 
   } else {
     get_content <- content(get_call)[[1]]
@@ -24,6 +24,8 @@ randquote <- function() {
     )
 
   }
+
+  return(quote)
 
 }
 
@@ -41,7 +43,7 @@ randquote_simple <- function(decoded = TRUE) {
 
   if (get_call$status_code != 200) {
 
-     stop(paste0('The API call returned ', get_call$status_code, ' error'))
+     stop(paste0('Fetching failed. The API call returned ', get_call$status_code, ' error'))
 
   } else {
     get_content <- content(get_call)[[1]]
