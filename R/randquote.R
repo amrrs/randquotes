@@ -15,7 +15,7 @@ randquote <- function(){
                       author = json_content$title$rendered
   )
 
-  class(quote) <- c('tbl','tbl_df','data.frame')
+  # class(quote) <- c('tbl','tbl_df','data.frame')
 
 }
 

@@ -4,7 +4,7 @@
 \alias{unescape_html}
 \title{Tidy up HTML text string}
 \usage{
-unescape_html(str)
+unescape_html(char_string)
 }
 \arguments{
 \item{char_string}{a character string containg HTML text with tags, page breaks, etc.}
@@ -14,8 +14,4 @@ a tidy character string
 }
 \description{
 Tidy up HTML text string
-}
-\examples{
-quote <- randquote_simple()
-cat(unescape_html(quote))
 }
