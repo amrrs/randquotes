@@ -4,7 +4,7 @@
 \alias{randquote_simple}
 \title{Minimal version of getting random quotes (only quote and author)}
 \usage{
-randquote_simple(decoded = T)
+randquote_simple(decoded = TRUE)
 }
 \arguments{
 \item{decoded}{TRUE if the output text is html decoded or not (defaut TRUE)}
