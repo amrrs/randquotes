@@ -6,11 +6,17 @@
 #' @export
 randquote <- function(){
 
-  quote <- jsonlite::fromJSON("http://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=1")
+  new_url <- 'https://quotesondesign.com/wp-json/wp/v2/posts/?orderby=rand&per_page=1'
+  json_content <- jsonlite::fromJSON(new_url)
 
-  class(quote) <- c('tbl','tbl_df','data.frame')
+  quote <- data.frame(id = json_content$id,
+                      quote = json_content$content$rendered,
+                      link = json_content$link,
+                      author = json_content$title$rendered
+  )
 
-  return(quote)
+  # class(quote) <- c('tbl','tbl_df','data.frame')
+
 }
 
 #' Minimal version of getting random quotes (only quote and author)
@@ -18,13 +24,14 @@ randquote <- function(){
 #' @return A string of quote along with the author name
 #' @examples
 #' randquote_simple()
-#' @importFrom xml2 xml_text read_html
 #' @export
-randquote_simple <- function(decoded = T){
+randquote_simple <- function(decoded = TRUE){
 
-  quote <- jsonlite::fromJSON("http://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=1")
+  new_url <- 'https://quotesondesign.com/wp-json/wp/v2/posts/?orderby=rand&per_page=1'
+  json_content <- jsonlite::fromJSON(new_url)
 
-  #class(quote) <- c('tbl','tbl_df','data.frame')
+  quote <- data.frame(content = json_content$content$rendered,
+                      title = json_content$title$rendered)
 
   text <- paste(quote$content, quote$title, sep = "-")
 
