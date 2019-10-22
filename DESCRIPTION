@@ -4,11 +4,12 @@ Title: Get Random Quotes from Quotes on Design API
 Version: 0.1.0
 Date: 2018-05-08
 Authors@R: c(
-    person("AbdulMajedRaja", "RS", email = "amrrs.data@gmail.com", role = c("aut", "cre"))
+    person("AbdulMajedRaja", "RS", email = "amrrs.data@gmail.com", role = c("aut", "cre")),
+    person("Kasia",  "Kulma", email = "katarzyna.kulma@gmail.com", role = "aut")
   )
 Maintainer: AbdulMajedRaja RS <amrrs.data@gmail.com>
 Description: Connects to the site <http://quotesondesign.com/> 
-            that uses the 'WordPress' JSON REST API 
+            that uses the 'WordPress' built-in REST API 
             to provide a way for you to grab quotes.
 URL: https://github.com/amrrs/randquotes
 BugReports: https://github.com/amrrs/randquotes/issues
