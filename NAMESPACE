@@ -2,6 +2,7 @@
 
 export(randquote)
 export(randquote_simple)
-importFrom(jsonlite,fromJSON)
+importFrom(httr,GET)
+importFrom(httr,content)
 importFrom(xml2,read_html)
 importFrom(xml2,xml_text)
