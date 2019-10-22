@@ -21,5 +21,6 @@ Depends:
 Imports:
     jsonlite,
     xml2,
-    curl
+    curl,
+    httr
 RoxygenNote: 6.1.1
