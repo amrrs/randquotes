@@ -7,4 +7,4 @@
 
 0 errors | 0 warnings | 0 note
 
-* This is a resubmission with change in Description and curl dependency added
+* This is a resubmission with better exception handling for response call failures. Sadly, this was removed from CRAN. Hopefully this gets to add it back. 
