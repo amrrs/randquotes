@@ -20,19 +20,19 @@ This package contains the following function:
 
 The stable version of `randquotes` can be installed from CRAN:
 
-```{r eval=FALSE}
+
+```r
 install.packages("randquotes")
 ```
 
 And the development version can be installed from github:
 
-```{r eval=FALSE}
+
+```r
 devtools::install_github("amrrs/randquotes")
 ```
 
-```{r message=FALSE, warning=FALSE, error=FALSE, include=FALSE}
-options(width=120)
-```
+
 
 ### Note
 
@@ -40,31 +40,49 @@ This package fetches data from API hence an active internet connection is requir
 
 ## Current Version
 
-```{r message=FALSE, warning=FALSE, error=FALSE}
+
+```r
 library(randquotes)
 
 # current verison
 packageVersion("randquotes")
+```
 
+```
+## [1] '0.1.0'
 ```
 
 ## Usage
 
 ### Get Random Quote
 
-```{r}
+
+```r
 library(randquotes)
 
 randquote()
+```
+
+```
+##     id                                                      quote                                       link
+## 1 1502 <p>When is the last time you saw a Lamborghini sale?</p>\n https://quotesondesign.com/chris-campbell/
+##           author
+## 1 Chris Campbell
 ```
 ### Get only the Quote
 
 Sometimes you may not be interested in getting a dataframe that has ID and link, so this function `randquote_simple()` outputs only the quote with author name.
 
-```{r}
+
+```r
 library(randquotes)
 
 cat(randquotes::randquote_simple())
+```
+
+```
+## When is the last time you saw a Lamborghini sale?
+## -Chris Campbell
 ```
 
 ## Courtesy

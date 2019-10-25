@@ -60,10 +60,10 @@ library(randquotes)
 randquote()
 ```
 
-    ##    id                                                                           quote
-    ## 1 719 <p>It&#8217;s not the paper&#8217;s fault that so much shit is printed.  </p>\n
-    ##                                               link               author
-    ## 1 https://quotesondesign.com/alejandro-magallanes/ Alejandro Magallanes
+    ##     id                                                      quote                                       link
+    ## 1 1502 <p>When is the last time you saw a Lamborghini sale?</p>\n https://quotesondesign.com/chris-campbell/
+    ##           author
+    ## 1 Chris Campbell
 
 ### Get only the Quote
 
@@ -77,8 +77,8 @@ library(randquotes)
 cat(randquotes::randquote_simple())
 ```
 
-    ## It’s not the paper’s fault that so much shit is printed.  
-    ## -Alejandro Magallanes
+    ## When is the last time you saw a Lamborghini sale?
+    ## -Chris Campbell
 
 ## Courtesy
 
@@ -88,5 +88,5 @@ API](https://quotesondesign.com/api/)
 ## Code of Conduct
 
 Please note that this project is released with a [Contributor Code of
-Conduct](CONDUCT.md). By participating in this project you agree to
-abide by its terms.
+Conduct](https://github.com/amrrs/randquotes/blob/master/CODE_OF_CONDUCT.md).
+By participating in this project you agree to abide by its terms.
