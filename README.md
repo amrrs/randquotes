@@ -1,7 +1,13 @@
 
 # randquotes
 
-[![Build Status](https://travis-ci.org/amrrs/randquotes.svg?branch=master)](https://travis-ci.org/amrrs/randquotes) [![codecov](https://codecov.io/gh/amrrs/randquotes/branch/master/graph/badge.svg)](https://codecov.io/gh/amrrs/randquotes) [![CRAN status](https://www.r-pkg.org/badges/version/randquotes)](https://cran.r-project.org/package=randquotes) [![DOWNLOADSTOTAL](https://cranlogs.r-pkg.org/badges/grand-total/randquotes)](https://cranlogs.r-pkg.org/badges/grand-total/randquotes) [![Rdoc](http://www.rdocumentation.org/badges/version/randquotes)](http://www.rdocumentation.org/packages/randquotes) 
+[![Build
+Status](https://travis-ci.org/amrrs/randquotes.svg?branch=master)](https://travis-ci.org/amrrs/randquotes)
+[![codecov](https://codecov.io/gh/amrrs/randquotes/branch/master/graph/badge.svg)](https://codecov.io/gh/amrrs/randquotes)
+[![CRAN
+status](https://www.r-pkg.org/badges/version/randquotes)](https://cran.r-project.org/package=randquotes)
+<https://cranlogs.r-pkg.org/badges/grand-total/randquotes>
+[![Rdoc](http://www.rdocumentation.org/badges/version/randquotes)](http://www.rdocumentation.org/packages/randquotes)
 
 ## Description
 
@@ -54,12 +60,10 @@ library(randquotes)
 randquote()
 ```
 
-    ##     ID            title
-    ## 1 2394 Anthony Liccione
-    ##                                                                                                                                                                                                                                                           content
-    ## 1 <p>Her complexity is a glorious fire that consumes, while her simplicity goes unapproachable. But if one takes time to understand her, there is something beautiful to find, something simple to be loved. But she goes unloved, for being misunderstood.</p>\n
-    ##                                           link
-    ## 1 https://quotesondesign.com/anthony-liccione/
+    ##    id                                                                           quote
+    ## 1 719 <p>It&#8217;s not the paper&#8217;s fault that so much shit is printed.  </p>\n
+    ##                                               link               author
+    ## 1 https://quotesondesign.com/alejandro-magallanes/ Alejandro Magallanes
 
 ### Get only the Quote
 
@@ -73,13 +77,13 @@ library(randquotes)
 cat(randquotes::randquote_simple())
 ```
 
-    ## Design in art, is a recognition of the relation between various things, various elements in the creative flux. You can’t invent a design. You recognize it, in the fourth dimension. That is, with your blood and your bones, as well as with your eyes.
-    ## -D.H. Lawrence
+    ## It’s not the paper’s fault that so much shit is printed.  
+    ## -Alejandro Magallanes
 
 ## Courtesy
 
 This R package is powered by [Quotes on Design
-API](https://quotesondesign.com/api-v4-0/)
+API](https://quotesondesign.com/api/)
 
 ## Code of Conduct
 
