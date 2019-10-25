@@ -1,8 +1,8 @@
 Package: randquotes
 Type: Package
 Title: Get Random Quotes from Quotes on Design API
-Version: 0.1.0
-Date: 2018-05-08
+Version: 0.1.1
+Date: 2019-10-25
 Authors@R: c(
     person("AbdulMajedRaja", "RS", email = "amrrs.data@gmail.com", role = c("aut", "cre")),
     person("Kasia",  "Kulma", email = "katarzyna.kulma@gmail.com", role = "aut")
