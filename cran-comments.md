@@ -7,4 +7,5 @@
 
 0 errors | 0 warnings | 0 note
 
+* This is a resubmission after fixing the URLs
 * This is a resubmission with better exception handling for response call failures. Sadly, this was removed from CRAN. Hopefully this gets to add it back. 
