@@ -7,5 +7,6 @@
 
 0 errors | 0 warnings | 0 note
 
+* Sorry my bad, I didnt notice the file name - entered full URL for Conduct.md
 * This is a resubmission after fixing the URLs
 * This is a resubmission with better exception handling for response call failures. Sadly, this was removed from CRAN. Hopefully this gets to add it back. 
